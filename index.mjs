@@ -5,7 +5,7 @@ import path from 'path';
 
 const app = express();
 const hostname = "35.160.120.126";
-const port = 3000;
+
 
 // Middleware to parse URL-encoded request bodies
 app.use(express.urlencoded({ extended: true }));
@@ -34,4 +34,4 @@ app.post('/SportLCE.html', (req, res) => {
 });
 
 // Get URL
-app.listen(port, hostname, () => { console.log(`Server running at http://${hostname}:${port}/`); });
+app.listen(hostname, () => { console.log(`Server running at http://${hostname}:${port}/`); });
