@@ -4,7 +4,7 @@ import path from 'path';
 
 
 const app = express();
-const hostname = "35.160.120.126";
+const port = process.env.PORT || 3001;
 
 
 // Middleware to parse URL-encoded request bodies
@@ -34,4 +34,4 @@ app.post('/SportLCE.html', (req, res) => {
 });
 
 // Get URL
-app.listen(hostname, () => { console.log(`Server running at http://${hostname}/`); });
+app.listen(port, () => { console.log(`Server running at http://${hostname}/`); });
