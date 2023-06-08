@@ -1,0 +1,35 @@
+h1{
+    color: rgb(74, 141, 230);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+ }
+
+.centeredDiv {
+    margin: auto;
+    width: 300px;
+    padding: 300px;
+ }
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin: 0 auto;
+ }
+  
+td, th {
+    border: 2px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+ }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+ }
