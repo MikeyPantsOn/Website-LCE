@@ -4,7 +4,7 @@ import path from 'path';
 
 
 const app = express();
-const hostname = "localhost";
+const hostname = "35.160.120.126";
 const port = 3000;
 
 // Middleware to parse URL-encoded request bodies
