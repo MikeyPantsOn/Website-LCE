@@ -34,4 +34,4 @@ app.post('/SportLCE.html', (req, res) => {
 });
 
 // Get URL
-app.listen(port, () => { console.log(`Server running at http://${hostname}/`); });
+app.listen(port, () => { console.log(`Server running at port ${port}`); });
